@@ -1,0 +1,39 @@
+@media screen and (max-width: 720px){
+    .boss{
+        flex-direction: column;
+    }
+    .boss>main{
+        width: 343px;
+    }
+    .boss>main>div>button{
+        width: 143px;
+        height: 36px;
+    }
+    .boss>main>div>button>span{
+        font-size: 14px;
+    }
+    .boss>main>div>a{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 32px;
+        margin: 16px 0;
+        height: 76px;
+    }
+    li{
+        font-size: 18px;
+    }
+    main>button{
+        margin-top: 16px;
+    }
+    section{
+        margin-left: 0;
+        height: 193px;
+        width: 343px;
+        margin-top: 24px;
+    }
+    section>iframe{
+        height: 100%;
+        width: 100%;
+    }
+}

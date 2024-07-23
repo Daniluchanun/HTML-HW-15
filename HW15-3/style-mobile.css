@@ -1,0 +1,34 @@
+@media screen and (max-width: 480px){
+    header{
+        height: 22vh;
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+    }
+    header div{
+        width: 100%;
+        height: 5.5vh;
+    }
+    main{
+        height: 15vh;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0;
+    }
+    section{
+        height: 50vh;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+    section div{
+        width: 100%;
+        height: 12.5vh;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        margin: 10px 0 0 0;
+    }
+}

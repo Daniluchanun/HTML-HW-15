@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px){
+
+    .header{
+        height: 15vh;
+    }
+    .main>div:last-of-type{
+        flex-direction: column;
+        height: 85vh;
+    }
+    .main>div>section>div:first-of-type{
+        height: 40vh;
+        width: 100vw;
+    }
+    .main>div>section>div:last-of-type{
+        height: 30vh;
+        width: 100vw;
+    }
+    .main>div>div{
+        height: 15vh;
+        width: 100%;
+    }
+
+}

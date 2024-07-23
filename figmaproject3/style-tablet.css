@@ -1,0 +1,30 @@
+@media screen and (min-width: 720px) and (max-width: 1080px){
+    .boss{
+        flex-direction: column;
+    }
+    .boss>main{
+        width: 720px;
+    }
+    h1{
+        margin: 16px 0;
+        font-size: 48px;
+        letter-spacing: 0.25px;
+        height: 58px;
+    }
+    li{
+        font-size: 20px;
+    }
+    main>button{
+        margin-top: 32px;
+    }
+    section{
+        margin-left: 0;
+        height: 405px;
+        width: 720px;
+        margin-top: 24px;
+    }
+    section>iframe{
+        height: 100%;
+        width: 100%;
+    }
+}

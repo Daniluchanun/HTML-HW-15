@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px){
+    section{
+        flex-direction: column;
+    }
+    section div:first-of-type{
+        width: 100%;
+        height: 70%;
+    }
+    section div:last-of-type{
+        width: 100%;
+        height: 30%;
+    }
+}

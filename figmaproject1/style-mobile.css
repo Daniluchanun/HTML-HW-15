@@ -1,0 +1,20 @@
+@media screen and (max-width: 480px){
+    h2{
+        font-size: 28px;
+    }
+    body>p{
+        width: 343px;
+        height: 168px;
+        font-size: 20px;
+        margin: 18px 0 32px 0;
+    }
+    body>div>button{
+        width: 131px;
+        padding: 0 30px;
+        font-size: 16px;
+    }
+    body>div{
+        flex-direction: column;
+        gap: 38px;
+    }
+}
